@@ -15,7 +15,7 @@ function solicitarnum(){
     }
 }
 solicitarnum()
-alert("numeros introducidos: "+nums);
+console.log("numeros introducidos: "+nums);
 
 function negativos(){
     for(let i=0; i<nums.length; i++){
@@ -29,7 +29,8 @@ function negativos(){
     }
 }
 negativos()
-alert("los numeros negativos introducidos son: "+negs);
+console.log("los numeros negativos introducidos son: "+negs);
+alert("Has introducido "+negs.length+" numeros negativos");
 
 function pares(){
     for(let i=0; i<nums.length; i++){
@@ -43,4 +44,5 @@ function pares(){
     }
 }
 pares();
-alert("los numeros pares introducimos son: "+pars);
+console.log("los numeros pares introducimos son: "+pars);
+alert("Has introducido "+pars.length+" numeros pares");
