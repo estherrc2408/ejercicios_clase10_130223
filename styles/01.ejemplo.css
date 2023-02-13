@@ -1,0 +1,36 @@
+#ejemplo1 p{
+    background-color: blueviolet;
+    transform: translate(350px, 400px);
+}
+
+#ejemplo2 {
+    background-color: violet;
+    transform: rotate(10deg);
+}
+
+#ejemplo3 {
+    background-color: rgb(101, 72, 128);
+    transform: scale(2, 3);
+}
+
+#ejemplo4 {
+    background-color: rgb(20, 118, 127);
+    transform: skew(20deg, 10deg);
+}
+
+#ejemplo5 {
+    background-color: rgb(12, 103, 249);
+    transform: matrix(scaleX(1.5), skewY(10deg), skewX(5deg), scaleY(0.5), 100px, 150px);
+    /*matrix (scaleX (), skewY (), skewX (), scaleY (), translateX (), translateY ())*/
+}
+
+#ejemplo6 {
+    width: 300px;
+    height: 400px;
+    background-color: red;
+    transition: background-color 1s;
+}
+
+#ejemplo6:hover {
+    background-color: violet;
+}
